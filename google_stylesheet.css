@@ -1,0 +1,80 @@
+#search-bar {
+    border-radius: 45px;
+    width: 460px;
+    height: 45px;
+    border-style: ridge;
+}
+
+div.search-stuff {
+    margin: 0;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+div.image-stuff {
+    margin: 0;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .homepage-buttons {
+    border-radius: 5px;
+    width: 128px;
+    height: 35px;
+    background-color: #F5F5F5;
+    border-style: solid;
+}
+
+div.button-stuff {
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.homepage-buttons:first-of-type {
+    margin-right: 10px;
+} */
+
+ul.homepage_links {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    font-family: arial, monospace, serif;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+li.right-side-links {
+    float: right;
+}
+
+#about-link {
+    padding-right: 10px;
+}
+
+#gmail-link {
+    padding-right: 10px;
+}
