@@ -23,12 +23,17 @@ div.image-stuff {
     transform: translate(-50%, -50%);
 }
 
-/* .homepage-buttons {
+.homepage-buttons {
     border-radius: 5px;
     width: 128px;
     height: 35px;
     background-color: #F5F5F5;
     border-style: solid;
+}
+
+.homepage-buttons:hover {
+    /* border-color: black; */
+    border-style: ridge;
 }
 
 div.button-stuff {
@@ -43,13 +48,26 @@ div.button-stuff {
 
 .homepage-buttons:first-of-type {
     margin-right: 10px;
-} */
+}
 
 ul.homepage_links {
-    list-style-type: none;
     margin: 10px;
     padding: 10px;
 }
+
+
+ul.footer_links {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 10px;
+    background-color: #F5F5F5;
+    border-style: ridge none none none;
+}
+
 
 li {
     display: inline;
@@ -59,7 +77,6 @@ li a {
     font-family: arial, monospace, serif;
     font-size: 14px;
     color: black;
-    text-align: center;
     text-decoration: none;
 }
 
@@ -67,14 +84,29 @@ li a:hover{
     text-decoration: underline;
 }
 
+li.left-side-links {
+    float: left;
+    margin-right: 22px;
+}
+
+li.left-side-links:first-of-type {
+    margin-left: 12px;
+}
+
 li.right-side-links {
     float: right;
+    margin-right: 22px;
 }
 
 #about-link {
     padding-right: 10px;
+    margin-left: 0;
 }
 
 #gmail-link {
     padding-right: 10px;
+}
+
+#images-link {
+    margin-right: 0;
 }
