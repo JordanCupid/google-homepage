@@ -1,12 +1,14 @@
 # google-homepage
+
 ---
 
 The purpose of this project is to recreate the Google homepage. Functionality includes links to different Google services and policies.
 
 ## Learning Outcomes
+
 ---
 
-###HTML###
+### HTML
 
 * Link to an external stylesheet within the **head** element to separate CSS from HTML (use the **link** element)
 * The icon for a web page's title can be set within the **head** element as well
@@ -17,7 +19,7 @@ The purpose of this project is to recreate the Google homepage. Functionality in
 * Use an ID selector for a single element to apply a specific change(s)
 * Every **input** (which is usually in a **form**) needs a *name* to function
 
-###CSS###
+### CSS
 
 * Change the look of a border with the property **border-style**
 * The property **border-radius** is useful for creating rounded corners on a border
@@ -28,6 +30,7 @@ The purpose of this project is to recreate the Google homepage. Functionality in
 * Use different types of selectors to change the scale of effects, such as descendant selectors or descendant selectors with pseudo classes
 
 ## Files
+
 ---
 
 * index.html - HTML file for Google homepage
@@ -35,6 +38,7 @@ The purpose of this project is to recreate the Google homepage. Functionality in
 * README.md - project documentation
 
 ## Software
+
 ---
 
 **Text editor**
@@ -46,5 +50,7 @@ Atom & Visual Studio
 Linux Mint
 
 ## Project Source
+
 ---
+
 From the curriculum of [The Odin Project](https://www.theodinproject.com/lessons/html-css)
